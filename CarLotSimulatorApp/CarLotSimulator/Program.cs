@@ -47,6 +47,8 @@ namespace CarLotSimulator
 
             Lot.Cars.Add(DreamCar);
 
+            Console.WriteLine($"Number of cars created {CarLot.numberOfCars}");
+
             foreach (var car in Lot.Cars)
             {
                 Console.WriteLine($" Year {car.Year}, Make {car.Make}, Model {car.Model}");
